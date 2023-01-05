@@ -1,6 +1,3 @@
 function(){
-  const a = document.getElementsByTagName("a[href*='isaacmurasaki.lemonsqueezy.com']");
-  for (const l of a) {
-  l.classList.add("lemonsqueezy-button");
-  }
+  document.getElementsByTagName("a[href*='isaacmurasaki.lemonsqueezy.com']").classList.add("lemonsqueezy-button");
 };
